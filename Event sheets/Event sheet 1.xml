@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="994990433619568">
+            <conditions>
+                <condition id="17" name="On tap object" sid="498992204549720" type="Touch">
+                    <param id="0" name="Object">butoes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="669310581937320" type="System">
+                    <param id="0" name="Layout">Maingame</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="139300132944627">
+            <conditions>
+                <condition id="3" name="Is button down" sid="117342473588419" type="Gamepad">
+                    <param id="0" name="Gamepad">1</param>
+                    <param id="1" name="Button">9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="706351871333438" type="System">
+                    <param id="0" name="Layout">Maingame</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="878311015805945">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="210823541720665" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">butoes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="294434697489631" type="System">
+                    <param id="0" name="Layout">Maingame</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
